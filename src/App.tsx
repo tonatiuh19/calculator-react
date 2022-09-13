@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Calculator from "./pages/Calculator/Calculator";
 import Logo from "./shared/images/logo.png";
 import Hearth from "./shared/images/hearth.png";
 
 function App() {
+  useEffect(() => {
+    document.title = "Assignment - Felix";
+  });
+
   return (
     <div className="App">
       <div className="header">
