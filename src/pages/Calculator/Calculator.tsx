@@ -47,6 +47,7 @@ const Calculator = () => {
               symbol: "",
               secondValue: "",
             });
+            setTempData("");
           }}
           type="c"
           title="C"
