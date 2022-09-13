@@ -1,41 +1,41 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: normal;
-    align-content: stretch;
-    padding:0.3em 1.2em;
-    margin:0 0.1em 0.1em 0;
-    border-radius:1.8em;
-    box-sizing: border-box;
-    font-family:'Roboto',sans-serif;
-    font-weight:900;
-    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
-    transition: all 0.2s;
-    width: 100%;
-    height: 30%;
-    font-size: 1.5em;
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: normal;
+  align-content: stretch;
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border-radius: 1.8em;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  transition: all 0.2s;
+  width: 100%;
+  height: 30%;
+  font-size: 2.5em;
 }
 
-.number-item{
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: flex-end;
-    order: 0;
+.number-item {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: flex-end;
+  order: 0;
 }
 
-.number-temp{
-    font-size: 0.5em;
-    font-weight: 500;
+.number-temp {
+  font-size: 0.5em;
+  font-weight: 500;
 }
 
-.back-state{
-    background-color:#fdfdfd;
+.back-state {
+  background-color: #fdfdfd;
 }
 
-.back-state-symbol{
-    background-color:#f3bbf5;
+.back-state-symbol {
+  background-color: #f3bbf5;
 }
